@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/223611__ctcollab__fire-ball-release.wav-d05da54eed1aed4f470eae79939f7380.sample"
+
+[deps]
+
+source_file="res://sounds/223611__ctcollab__fire-ball-release.wav"
+dest_files=[ "res://.import/223611__ctcollab__fire-ball-release.wav-d05da54eed1aed4f470eae79939f7380.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
