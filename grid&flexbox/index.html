@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>League of legends Thresh quick review (grid&flexbox)</title>
+        <style>
+            h1{
+                position: relative;
+            }
+            .mainc{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-auto-rows:minmax(100px,auto);
+                grid-row-gap:1em;
+                grid-column-gap:1em;
+                justify-items:stretch;
+                align-items:stretch;
+                /*align-items:start;*/
+            }
+            .mainc > div{
+                background:#eee;
+                padding:1em;
+            }
+            .mainc > div:nth-child(odd){
+                background:#ded;
+            }
+            .grid1{
+                grid-row:1/3;
+                grid-culumn:1/3;
+            }
+            .grid2{
+ 
+            }
+            .grid3{
+                grid-row:2/3;
+                grid-culumn:2/3;
+            }
+            .AB {
+                display: flex;
+                flex-direction:column;
+                padding: 1em;
+            }
+            .AB > div{
+                background:#ddd;
+                padding:1em;
+                justify-content:space-between;
+            }
+            .AB > div:nth-child(odd){
+                background:#dfd;
+        </style>
+    </head>
+    <body>
+        <div class="mainc" >
+            <div class="grid1">
+                <h2>about</h2>
+                Sadistic and cunning, Thresh is an ambitious and restless spirit of the Shadow Isles. Once the custodian of countless arcane secrets, he was undone by a power greater than life or death, and now sustains himself by tormenting and breaking others with slow, excruciating inventiveness. His victims suffer far beyond their brief mortal coil as Thresh wreaks agony upon their souls, imprisoning them in his unholy lantern to torture for all eternity.
+            </div>
+            <div class="grid2">
+                <h2>Looks</h2>
+                <img src="img.jpg" alt="Thresh" height="200" width="150">
+            </div>
+            <div class="grid3">
+                <h2>Role</h2> 
+                Thresh is a support champion played on the bottom lane of the map assisting AD carries and protecting them.
+            </div>
+            
+        </div>
+        <div class="AB">
+            <div class="Q">
+                Thresh binds an enemy in chains and pulls them toward him. Activating this ability a second time pulls Thresh to the enemy.
+            </div>
+            <div class="W">
+                Thresh throws out a lantern that shields nearby allied Champions from damage. Allies can click the lantern to dash to Thresh.
+            </div>
+            <div class="E">
+                Thresh's attacks wind up, dealing more damage the longer he waits between attacks. When activated, Thresh sweeps his chain, knocking all enemies hit in the direction of the blow.
+            </div>
+            <div class="R">
+                Thresh creates walls around himself in pentagon which slows anyone that walks through them.
+            </div>
+        </div>
+    </body>
+</html>
